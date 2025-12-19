@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling dasar biar kelihatan clean */
+:root { color-scheme: light; }
