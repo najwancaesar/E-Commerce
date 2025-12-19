@@ -169,7 +169,7 @@ Project ini dibuat untuk keperluan akademik (UAS).
 
 ---
 
-# 4. Step-by-step deploy GitHub Pages (ringkas versi checklist)
+# Step-by-step deploy GitHub Pages (ringkas versi checklist)
 
 1. Pastikan `HashRouter` di `src/main.jsx`
 2. Set `base: "/nama-repo/"` di `vite.config.js`
