@@ -7,5 +7,5 @@ export default defineConfig({
   // WAJIB: base harus sama dengan nama repository GitHub kamu
   // contoh repo: https://github.com/USERNAME/uas-ecommerce
   // maka base: "/uas-ecommerce/"
-  base: "/REPO_NAME/",
+  base: "/E-Commerce/",
 });
