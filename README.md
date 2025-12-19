@@ -49,17 +49,20 @@ Project ini dibuat untuk kebutuhan **penilaian UAS** menggunakan **React + Vite*
 
 ## 📁 Struktur Folder (Ringkas)
 
-src/
-components/ # komponen UI (Navbar, ProductCard, SmartImage, dll)
-context/ # state global (Cart, Toast, Auth, AdminAuth)
-hooks/ # custom hook (useProducts)
-layouts/ # ShopLayout (navbar+footer)
-pages/ # halaman utama (Home, Products, ProductDetail, Cart, Checkout, Profile)
-pages/admin/ # halaman admin (AdminLayout, Dashboard, Products, Users, Orders, Reports, Settings)
-routes/ # route guard (RequireUser, RequireAdmin)
-utils/ # helper: orderStorage, settingsStorage, format currency, dll
-public/
-products.json # data produk (bisa diubah ke API online)
+uas-ecommerce/
+├─ public/
+├─ src/
+│ ├─ components/ # Komponen UI (Navbar, ProductCard, SmartImage, dll)
+│ ├─ context/ # State global (Cart, Toast, Auth, AdminAuth)
+│ ├─ hooks/ # Custom hooks (useProducts, dll)
+│ ├─ layouts/ # Layout umum (ShopLayout: navbar + footer)
+│ ├─ pages/ # Halaman user (Home, Products, ProductDetail, Cart, Checkout, Profile)
+│ │ └─ admin/ # Halaman admin (AdminLayout, Dashboard, Products, Users, Orders, Reports, Settings)
+│ ├─ routes/ # Route guards (RequireUser, RequireAdmin)
+│ └─ utils/ # Helper (orderStorage, settingsStorage, formatCurrency, dll)
+├─ products.json # Data produk (bisa diganti ke API online)
+├─ README.md
+└─ package.json
 
 ---
 
@@ -75,7 +78,9 @@ npm install
 
 2; Jalankan Dev Server:
 
+```bash
 npm run dev
+```
 
 3; Buka browser
 User:
